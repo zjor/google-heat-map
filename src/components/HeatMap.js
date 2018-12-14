@@ -51,7 +51,7 @@ class HeatMap extends Component {
 
   render() {
 
-  	const apiKey = {key: 'AIzaSyDmxLOY-mw_pCg8z7pUlIlZ1GLxHQRhU9c'}
+  	const apiKey = {key: 'AIzaSyCyA2oL6c7q3_yjyG2Is2UabuV68ppIr5Q'}
   	const heatMapData = {
   		positions: this.state.heatmapPoints,
 		options: {
