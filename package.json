@@ -1,13 +1,19 @@
 {
   "name": "google-heat-map",
   "version": "0.1.0",
+  "homepage": "https://zjor.github.io/google-heat-map",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "google-map-react": "^1.1.1",
+    "prop-types": "^15.5.6",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
